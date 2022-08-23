@@ -1,0 +1,8 @@
+.wrapper p {
+  color: hsl(211, 10%, 45%);
+}
+
+.wrapper p span {
+  color: hsl(238, 40%, 52%);
+  font-weight: 600;
+}

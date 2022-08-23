@@ -1,0 +1,30 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background: hsl(223, 19%, 93%);
+}
+
+.inner {
+  width: 70%;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.reply_ctn {
+  position: relative;
+}
+
+.reply_ctn::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: hsl(239, 57%, 85%);
+  left: 5%;
+}
+
+.reply_inner {
+  width: 90%;
+  margin-left: auto;
+}

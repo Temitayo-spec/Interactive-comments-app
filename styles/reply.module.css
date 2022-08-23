@@ -1,0 +1,20 @@
+.wrapper {
+  height: 100%;
+  position: relative;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  background: #fff;
+  padding: 1em;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 1em;
+}
+
+.rhs {
+  display: flex;
+  flex-direction: column;
+}

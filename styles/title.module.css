@@ -1,0 +1,59 @@
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5em 0;
+}
+
+.lhs {
+  display: flex;
+  align-items: center;
+}
+
+.lhs img {
+  width: 12%;
+  margin-right: 1em;
+}
+
+.lhs h4 {
+  color: hsl(212, 24%, 26%);
+}
+
+.lhs p {
+  margin-left: 1em;
+  color: hsl(211, 10%, 45%);
+}
+
+.lhs span {
+  margin-left: 1em;
+  background: hsl(238, 40%, 52%);
+  color: #fff;
+  padding: 0.2em 0.3em;
+  border-radius: 2px;
+}
+
+.rhs {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.rhs span {
+  color: hsl(238, 40%, 52%);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btns:nth-child(1) p {
+  color: hsl(358, 79%, 66%);
+}
+
+.btns p {
+  margin-left: 0.6em;
+}
